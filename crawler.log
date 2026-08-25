@@ -1,0 +1,21 @@
+2026-08-25 09:28:53,205 - Step1Test - INFO - Testing Step 1 Initialization...
+2026-08-25 09:28:53,206 - Step1Test - INFO - Successfully instantiated model: AICTE - Pragati Scholarship Scheme For Girl Students
+2026-08-25 09:28:53,206 - Step1Test - INFO - Generated Record Hash: ec402ff38475e64ee4123d4e9e9a90de28ed6cd59d31df16f2bf3d42c049a025
+2026-08-25 09:28:53,206 - Step1Test - INFO - Stored Evidence Quote: 'Student Application Open till : 31-10-2026'
+2026-08-25 09:30:39,135 - database - INFO - SQLite database tables and indexes initialized successfully.
+2026-08-25 09:31:16,283 - discovery - INFO - Executing Discovery Engine across seed sources...
+2026-08-25 09:31:16,283 - discovery - INFO - Discovery Engine identified 5 candidate seeds.
+2026-08-25 09:32:04,957 - crawler - INFO - Crawling URL (Attempt 1/3): https://scholarships.gov.in/
+2026-08-25 09:32:05,734 - crawler - INFO - Successfully fetched https://scholarships.gov.in/ (Hash: fe07996cc4...)
+2026-08-25 09:32:05,738 - crawler - INFO - [FIXTURE FALLBACK] Reading content from local fixture: C:\Users\Asus\OneDrive\Desktop\scholarship-intelligence\tests\fixtures\sample_scholarship.html
+2026-08-25 13:01:51,206 - crawler - INFO - Crawling URL (Attempt 1/3): https://scholarships.gov.in/pragati-scheme
+2026-08-25 13:02:02,706 - crawler - WARNING - HTTP 404 received for https://scholarships.gov.in/pragati-scheme
+2026-08-25 13:02:02,706 - crawler - ERROR - Failed to crawl https://scholarships.gov.in/pragati-scheme after 3 attempts.
+2026-08-25 13:03:11,425 - crawler - INFO - Crawling URL (Attempt 1/3): https://scholarships.gov.in/
+2026-08-25 13:03:12,146 - crawler - INFO - Successfully fetched https://scholarships.gov.in/ (Hash: 1d0825a9b3...)
+2026-08-25 13:04:16,123 - crawler - INFO - Crawling URL (Attempt 1/3): https://scholarships.gov.in/
+2026-08-25 13:04:16,729 - crawler - INFO - Successfully fetched https://scholarships.gov.in/ (Hash: d2a6d01280...)
+2026-08-25 13:04:16,777 - extractor - INFO - Extracted record 'NSP : National Scholarship Portal' with 3 evidence quotes.
+2026-08-25 13:04:16,782 - crawler - INFO - Crawling URL (Attempt 1/3): https://www.aicte-india.org/schemes/students-development-schemes
+2026-08-25 13:04:29,748 - crawler - INFO - Successfully fetched https://www.aicte-india.org/schemes/students-development-schemes (Hash: a83014efbd...)
+2026-08-25 13:04:29,783 - extractor - INFO - Extracted record 'Students Development schemes' with 2 evidence quotes.
